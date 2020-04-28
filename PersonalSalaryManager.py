@@ -19,7 +19,7 @@ try:
 	print("--------------------------------------------------------------------------------")
 	
 	
-	clg=int(input("How much amount you want to save for college This moonth Default [3000] : ") or 3000)
+	clg=int(input("How much amount you want to save for college This month Default [3000] : ") or 3000)
 	priv_amt=int(input("Please enter previous total collected college fees amount to add : "))
 
 	print("Total collected amount for college is : ",clg + priv_amt )
